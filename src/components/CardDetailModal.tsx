@@ -3,18 +3,14 @@ import { Card, Column, Priority, Label } from '../types/kanban';
 import { DEFAULT_LABELS } from '../utils/initialData';
 import {
   X,
-  Clock,
   Tag,
   CheckSquare,
   MessageSquare,
-  Palette,
   Trash2,
   List,
-  AlertCircle,
   Plus,
   Send,
-  Check,
-  FolderInput
+  Check
 } from 'lucide-react';
 
 interface CardDetailModalProps {
@@ -415,7 +411,7 @@ export const CardDetailModal: React.FC<CardDetailModalProps> = ({
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                justify-content: 'space-between'
+                justifyContent: 'space-between'
               }}
             >
               <div className="modal-section-title">
@@ -541,7 +537,7 @@ export const CardDetailModal: React.FC<CardDetailModalProps> = ({
                       style={{
                         display: 'flex',
                         alignItems: 'center',
-                        justify-content: 'space-between',
+                        justifyContent: 'space-between',
                         fontSize: '0.78rem',
                         color: 'var(--text-muted)',
                         marginBottom: '0.2rem'
@@ -566,7 +562,7 @@ export const CardDetailModal: React.FC<CardDetailModalProps> = ({
             padding: '1rem 1.5rem',
             borderTop: '1px solid var(--border-color)',
             display: 'flex',
-            justify: 'space-between',
+            justifyContent: 'space-between',
             alignItems: 'center'
           }}
         >
