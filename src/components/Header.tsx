@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="logo-icon">
           <Trello size={20} />
         </div>
-        <span className="logo-text">KanbanPro</span>
+        <span className="logo-text">Board</span>
 
         {/* Board Selection Dropdown */}
         <div style={{ position: 'relative', marginLeft: '1rem' }}>
